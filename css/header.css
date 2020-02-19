@@ -1,0 +1,20 @@
+.header-logo {
+  font-size: 1.5em;
+}
+
+.header-contents {
+  margin: 60px 0;
+}
+
+.header-contents__title {
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.header-contents__txt {
+  width: 40vw;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=header.css.map */
