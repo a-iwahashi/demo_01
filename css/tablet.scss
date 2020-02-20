@@ -1,14 +1,64 @@
 @charset "utf-8";
 
-@media screen and(min-width:481px)and(max-width:896px){
+@media screen and(min-width:481px)and(max-width:1024px){
     /*common*/
     .container {
         width: 80vw;
         margin:0 auto;
-        overflow: hidden;
     }
-
     img{
         width:100%;
     }
+
+    /*header*/    
+
+    /*main*/
+    .main-contents{
+        &__title{
+            width:80vw;
+        }
+    }
+    .main-reason{
+        width: 80vw;
+        &__box01{
+            float:left;
+            width: 37vw;
+            padding: 0;
+        }
+        &__box02{
+            float:right;
+            width: 37vw;
+            padding: 0;
+        }
+    }
+    .main-example{
+        &__box{
+            width: 25vw;
+        }
+    }
+    .main-flow{
+        display: block;
+        &__box{
+            width:80vw;
+            margin: 0;
+        }
+        &__title{
+            width:73vw;
+            margin:40px 0 30px;
+            &::after{
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-top: 42px solid #666;
+                top:60px;
+                left:40px;
+            }
+        }
+    }
+    .main-faq{
+        &__que{
+            padding: 25px 35px;
+        }
+    }
+
+    /*footer*/
 }
