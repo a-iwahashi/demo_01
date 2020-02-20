@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EACtD,UAAU;EACV,AAAA,UAAU,CAAC;IACP,KAAK,EAAE,IAAI;IACX,MAAM,EAAC,MAAM;IACb,QAAQ,EAAE,MAAM;GACnB;EAED,AAAA,GAAG,CAAA;IACC,KAAK,EAAC,IAAI;GACb",
     "sources": [
         "tablet.scss"
     ],

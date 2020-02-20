@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=tablet.css.map */
+@media screen and (min-width: 481px) and (max-width: 896px) {
+  /*common*/
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */
