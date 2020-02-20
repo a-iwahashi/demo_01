@@ -1,1 +1,86 @@
-/* No CSS *//*# sourceMappingURL=sp.css.map */
+@media screen and (max-width: 480px) {
+  /*common*/
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+  }
+  /*header*/
+  .header-contents__title {
+    font-size: 1.7em;
+  }
+  .header-contents__txt {
+    width: 80vw;
+  }
+  /*main*/
+  .main-contents__title {
+    width: 80vw;
+    font-size: 1.6em;
+  }
+  .main-task {
+    display: block;
+  }
+  .main-task__box {
+    margin: 60px 0;
+  }
+  .main-task__box img {
+    width: 40vw;
+  }
+  .main-reason {
+    width: 80vw;
+  }
+  .main-reason__box01 {
+    float: none;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+  }
+  .main-reason__box02 {
+    float: none;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+  }
+  .main-example {
+    display: block;
+    text-align: center;
+  }
+  .main-example__box {
+    width: 80vw;
+    margin: 30px 0 50px 0;
+    font-size: 1em;
+  }
+  .main-flow {
+    display: block;
+  }
+  .main-flow__box {
+    width: 80vw;
+    margin: 0;
+  }
+  .main-flow__title {
+    width: 80vw;
+    padding: 30px 20px;
+    margin: 40px 0 30px;
+  }
+  .main-flow__title::after {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 42px solid #666;
+    top: 60px;
+    left: 80px;
+  }
+  .main-faq__que {
+    padding: 25px 30px 25px 20px;
+  }
+  /*footer*/
+  .footer-contents {
+    padding: 50px 0 60px;
+  }
+  .footer-contents__title {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=sp.css.map */
