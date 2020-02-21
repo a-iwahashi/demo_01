@@ -1,0 +1,54 @@
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /*common*/
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+  }
+  /*header*/
+  /*main*/
+  .main-contents__title {
+    width: 80vw;
+  }
+  .main-reason {
+    width: 80vw;
+  }
+  .main-reason__box01 {
+    float: left;
+    width: 37vw;
+    padding: 0;
+  }
+  .main-reason__box02 {
+    float: right;
+    width: 37vw;
+    padding: 0;
+  }
+  .main-example__box {
+    width: 25vw;
+  }
+  .main-flow {
+    display: block;
+  }
+  .main-flow__box {
+    width: 80vw;
+    margin: 0;
+  }
+  .main-flow__title {
+    width: 73vw;
+    margin: 40px 0 30px;
+  }
+  .main-flow__title::after {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 42px solid #666;
+    top: 60px;
+    left: 40px;
+  }
+  .main-faq__que {
+    padding: 25px 35px;
+  }
+  /*footer*/
+}
+/*# sourceMappingURL=tablet.css.map */

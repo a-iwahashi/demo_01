@@ -30,6 +30,14 @@
   border-radius: 50%;
 }
 
+.main-task__box p:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
 .main-reason {
   width: 900px;
   margin: 50px auto;

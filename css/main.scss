@@ -21,6 +21,13 @@
             width: 100px;
             border-radius: 50%;
         }
+        p{
+            &:hover{
+                cursor:pointer;
+                transform:rotate(-5deg);
+                transition: 0.1s;
+            }
+        }
     }
 }
 
