@@ -5,7 +5,6 @@
     .container {
         width: 80vw;
         margin:0 auto;
-        overflow: hidden;
     }
 
     img{
@@ -69,7 +68,7 @@
             margin: 0;
         }
         &__title{
-            width:80vw;
+            width:70vw;
             padding:30px 20px;
             margin:40px 0 30px;
             &::after{

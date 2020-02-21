@@ -3,7 +3,6 @@
   .container {
     width: 80vw;
     margin: 0 auto;
-    overflow: hidden;
   }
   img {
     width: 100%;
@@ -61,7 +60,7 @@
     margin: 0;
   }
   .main-flow__title {
-    width: 80vw;
+    width: 70vw;
     padding: 30px 20px;
     margin: 40px 0 30px;
   }
