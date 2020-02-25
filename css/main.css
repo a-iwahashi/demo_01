@@ -146,8 +146,8 @@
 }
 
 .main-faq__que::after {
-  content: '▼';
-  font-size: 0.8em;
+  content: '＋';
+  font-weight: bold;
   position: absolute;
   top: 25px;
   right: 15px;
@@ -159,6 +159,14 @@
   color: #fff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.main-faq__que--change::after {
+  content: 'ー';
+  font-weight: bold;
+  position: absolute;
+  top: 25px;
+  right: 15px;
 }
 
 .main-faq__ans {
